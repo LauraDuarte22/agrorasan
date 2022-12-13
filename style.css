@@ -1,8 +1,7 @@
-
 :root {
-  --color-bg: #FFFFFF;
+  --color-bg: #ffffff;
   --color-text-main: #000000;
-  --color-primary: #FFFF00;
+  --color-primary: #ffff00;
   --wrapper-height: 87vh;
   --image-max-width: 300px;
   --image-margin: 3rem;
@@ -18,14 +17,18 @@
   display: none !important;
 }
 
-
-
 body {
   font-family: HK Grotesk;
   background-color: var(--color-bg);
 }
 
-.navbar-nav .nav-item .nav-link:hover{
-  color:#169CBC;
+.navbar-nav .nav-item .nav-link:hover {
+  color: #169cbc;
+}
+.bg-image {
+  background-image: url("https://cdn.glitch.global/e93fccd1-09e9-4089-9c49-b513f5ff6cee/ganado?v=1670974790651");
+  background-position: center;
   
+  background-repeat: no-repeat;
+  height: 50vh;
 }
