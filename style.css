@@ -1,6 +1,6 @@
 
 :root {
-  --color-bg: #69F7BE;
+  --color-bg: #FFFFFF;
   --color-text-main: #000000;
   --color-primary: #FFFF00;
   --wrapper-height: 87vh;
@@ -25,3 +25,7 @@ body {
   background-color: var(--color-bg);
 }
 
+.navbar-nav .nav-item .nav-link:hover{
+  color:#169CBC;
+  
+}
