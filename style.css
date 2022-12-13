@@ -28,7 +28,8 @@ body {
 .bg-image {
   background-image: url("https://cdn.glitch.global/e93fccd1-09e9-4089-9c49-b513f5ff6cee/ganado?v=1670974790651");
   background-position: center;
-  
+  background-attachment: fixed;
+  background-size: cover;
   background-repeat: no-repeat;
   height: 50vh;
 }
